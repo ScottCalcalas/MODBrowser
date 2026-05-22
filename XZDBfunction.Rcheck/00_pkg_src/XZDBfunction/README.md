@@ -1,5 +1,5 @@
 
-# 'MOD-Browser' R Package: Multi-Omices eXplore & Zoom Database Browser
+# 'XZDBfunction' R Package: Multi-Omices eXplore & Zoom Database Browser
 - User-friendly Shiny-based web platform for [searching, annotating, and exporting](#browser-functions) multi-omics (genomic and proteomic) metadata across multiple datasets.
 - Build for genomic & protein interaction datasets. 
 - Works on Windows, macOS, and Linux system, the only dependency is R. Supports running without install an R package. Easy to launch [instructions](#instructions-to-configure-local-quick-start) for local use / server use available.
@@ -17,8 +17,8 @@ Please go to "Reference" page to check the list of analysis functions for statis
 (*Contains setup code for R, launching the web browser directly with an example dataset*) 
 ```r
 install.packages("remotes") # Skip this step if you already have "remotes" package
-remotes::install_github("scottcalcalas/MOD-Browser")
-library(MODBrowser)
+remotes::install_github("scottcalcalas/XZDBfunction")
+library(XZDBfunction)
 
 XZDB.Run() #Launch a demo (with example datasets)
 ```
@@ -205,7 +205,7 @@ xzdb.nowDataset()          #It copies current using datasets to your working pat
 
 Example package storage location, inside R package:
 ```r
- R\R-4.4.3\library\MODBrowser\shinyapp
+ R\R-4.4.3\library\XZDBfunction\shinyapp
 ```
 
 *After those steps, start the browser and run "Rebuild EVERYTHING" at Administrator Operations.*
@@ -232,7 +232,7 @@ Example package storage location, inside R package:
 
 To make a quick start R file, put these two lines:
 ```r
-library(MODBrowser)
+library(XZDBfunction)
 XZDB.Run()
 ```
 
@@ -300,4 +300,4 @@ After those steps, double-click the file to launch the website browser applicati
 
 #### A3. Update local R script (If you're using local based instead of package based)
 
-Copy and replace your local scripts using the scripts at github location: MOD-Browser/inst/shinyapp/
+Copy and replace your local scripts using the scripts at github location: XZDBfunction/inst/shinyapp/

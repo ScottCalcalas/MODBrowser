@@ -1,0 +1,4 @@
+﻿Interaction_With,Interaction_With_ID,database,taxid,experimental_role,Name_from_author,pmid,Interaction_type,Interaction_detection,Protein,Protein_ID
+SF3B1,O75533,uniprotkb,9606,prey,,36843541,association,...coimmunoprecipitation,eIF4E,P06730
+PRP6,O94906,uniprotkb,9606,prey,PRPF6,36843541,association,...coimmunoprecipitation,eIF4E,P06730
+PRP8,Q6P2Q9,uniprotkb,9606,prey,PRPF8,36843541,association,...coimmunoprecipitation,eIF4E,P06730

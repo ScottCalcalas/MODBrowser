@@ -1,0 +1,37 @@
+Clean.measurement.for.prism
+                        Transformation for data inputs when using PRISM
+                        to draw figures
+Clean.measurement.for.prism.help
+                        Help for Clean.measurement.for.prism
+XZDB.Run                Run Shiny UI for the Genomic DB Browser
+cox_multivar_fun        Multivariable Cox Regression (Categorical
+                        Predictor)
+cox_multivar_fun_cts    Multivariable Cox Regression (Continuous
+                        Predictor)
+cox_univar_fun          Univariate Cox Regression (Categorical
+                        Predictor)
+cox_univar_fun_cts      Univariate Cox Regression (Continuous
+                        Predictor)
+find_sig_var            Identify Significant Variables
+ind_loc_fun             Find Row Locations of Variable Levels
+led_fun_2               Format Life-Expectancy or Restricted Mean
+                        Survival Output
+logist_multi_fun        Multivariable Logistic Regression (Categorical
+                        Predictor)
+logist_multi_fun_cts    Multivariable Logistic Regression (Continuous
+                        Predictor)
+logist_univar_fun       Univariate Logistic Regression (Categorical
+                        Predictor)
+logist_univar_fun_cts   Univariate Logistic Regression (Continuous
+                        Predictor)
+xiaopei.build.bioinfo.envi
+                        Build environment for Bioinformation analysis
+xiaopei.input           Build an index file for one dataset
+xzdb.clean.file         Clean all files and folders inside a directory
+xzdb.help               Prepare Local Working Folder With Example Files
+xzdb.input.all          Build index files for all datasets listed in
+                        the index Excel
+xzdb.nowDataset         Get the current using datasets
+xzdb.sync.to.shinyapp   Synchronize all datasets and index files into
+                        the package shinyapp directory
+xzdb.update             Update this XZDBfunction package
