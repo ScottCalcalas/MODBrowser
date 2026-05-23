@@ -3,7 +3,7 @@ Type: Package
 Title: Multi-Omics Data Browser for Integrative Exploration and Discovery of Genomic and Protein Interaction Networks
 Version: 8.1.1
 Author: Xiaopei Zhang
-Maintainer: Xiaopei Zhang <xpzhang15@gmail.com>
+Maintainer: Xiaopei Zhang <statzxp@gmail.com>
 Description: Modularized tools for dataset indexing, gene ID/symbol resolution, searching, printing, and metadata binding. Includes full roxygen2, pkgdown, and GitHub Actions support.
 License: MIT + file LICENSE
 Encoding: UTF-8
