@@ -10,7 +10,8 @@ cox_multivar_fun_cts(
   res_event,
   var_model,
   var,
-  multi_var_all = multi_var_all
+  multi_var_all = multi_var_all,
+  dig = 2
 )
 }
 \arguments{

@@ -1,9 +1,9 @@
 .onAttach <- function(libname, pkgname) {
   packageStartupMessage(
     "MODBrowser loaded!\n",
-    "--Use XZDB.Run() to start the Shiny Genomic DB Browser.\n",
-    "---Need help? Run: ?XZDB.Run\n",
-    "----Build you own: ?xzdb.help\n",
-    "-----Update me: xzdb.update()"
+    "--Use MODB.Run() to start the Shiny Genomic DB Browser.\n",
+    "---Need help? Run: ?MODB.Run\n",
+    "----Build you own: ?modb.help\n",
+    "-----Update me: modb.update()"
   )
 }

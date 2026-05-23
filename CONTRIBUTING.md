@@ -1,13 +1,13 @@
-# Contributing to MOD-Browser
+# Contributing to MODBrowser
 
-Thank you for helping improve `MOD-Browser`. Contributions can include bug
+Thank you for helping improve `MODBrowser`. Contributions can include bug
 reports, documentation improvements, example datasets, tests, and code changes.
 
 ## Reporting problems
 
 Please open an issue at:
 
-https://github.com/ScottCalcalas/MOD-Browser/issues
+https://github.com/ScottCalcalas/MODBrowser/issues
 
 Include your operating system, R version, package version, the command you ran,
 and the smallest dataset or screenshot needed to reproduce the problem. Do not
@@ -16,7 +16,7 @@ upload private or protected research data to a public issue.
 ## Asking for support
 
 For usage questions, start with the README and the examples copied by
-`xzdb.help()`. If the behavior still seems unclear or broken, open a GitHub
+`modb.help()`. If the behavior still seems unclear or broken, open a GitHub
 issue so the answer can help future users too.
 
 ## Development workflow

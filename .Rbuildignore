@@ -1,0 +1,5 @@
+^\.git$
+^\.github$
+^.*\.Rcheck$
+^\.\.Rcheck$
+^CITATION\.cff$

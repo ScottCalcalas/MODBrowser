@@ -512,6 +512,7 @@ cox_multivar_fun =  function(data_fun, res_time, res_event, var_model, var, mult
 #' multivariable Cox model.
 #'
 #' @inheritParams cox_multivar_fun
+#' @param dig Rounding digits.
 #'
 #' @return A one-row matrix of adjusted HR and p-value.
 #'

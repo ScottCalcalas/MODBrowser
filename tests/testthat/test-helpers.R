@@ -21,11 +21,11 @@ test_that("gene-pair resolution keeps rows with usable identifiers", {
 })
 
 test_that("clean file helper creates and empties directories", {
-  tmp <- file.path(tempdir(), paste0("xzdb-clean-", Sys.getpid()))
+  tmp <- file.path(tempdir(), paste0("MODB-clean-", Sys.getpid()))
   dir.create(tmp, showWarnings = FALSE)
   file.create(file.path(tmp, "old.csv"))
 
-  expect_true(MODBrowser::xzdb.clean.file(tmp))
+  expect_true(MODBrowser::modb.clean.file(tmp))
   expect_true(dir.exists(tmp))
   expect_length(list.files(tmp, all.files = TRUE, no.. = TRUE), 0)
 })

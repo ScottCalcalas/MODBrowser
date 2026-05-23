@@ -1,5 +1,5 @@
 
-# 'MOD-Browser' R Package: Multi-Omices eXplore & Zoom Database Browser
+# 'MODBrowser' R Package: Multi-Omices eXplore & Zoom Database Browser
 - User-friendly Shiny-based web platform for [searching, annotating, and exporting](#browser-functions) multi-omics (genomic and proteomic) metadata across multiple datasets.
 - Build for genomic & protein interaction datasets. 
 - Works on Windows, macOS, and Linux system, the only dependency is R. Supports running without install an R package. Easy to launch [instructions](#instructions-to-configure-local-quick-start) for local use / server use available.
@@ -8,7 +8,7 @@
 
 | Overview | Start Page |
 |---|---|
-| ![Shiny UI Overview](man/figures/xzdbGraph_Explain.png) | ![Shiny UI FirstPage](man/figures/FirstPage.png) |
+| ![Shiny UI Overview](man/figures/MODBGraph_Explain.png) | ![Shiny UI FirstPage](man/figures/FirstPage.png) |
 
 
 Please go to "Reference" page to check the list of analysis functions for statistical and biological analysis in this package.
@@ -17,10 +17,10 @@ Please go to "Reference" page to check the list of analysis functions for statis
 (*Contains setup code for R, launching the web browser directly with an example dataset*) 
 ```r
 install.packages("remotes") # Skip this step if you already have "remotes" package
-remotes::install_github("scottcalcalas/MOD-Browser")
+remotes::install_github("scottcalcalas/MODBrowser")
 library(MODBrowser)
 
-XZDB.Run() #Launch a demo (with example datasets)
+MODB.Run() #Launch a demo (with example datasets)
 ```
 
 ## Setup Database 
@@ -28,11 +28,11 @@ XZDB.Run() #Launch a demo (with example datasets)
 
 ### 1. Get protocol and set up your own database
 ```r
-?xzdb.help()
-xzdb.help() #Get protocols and setup instructions
+?modb.help()
+modb.help() #Get protocols and setup instructions
 
 # Transfer your datasets to the current folder, check everything is OK to run next step.
-xzdb.input.all()    #Build the database in current folder and copy them to R package.
+modb.input.all()    #Build the database in current folder and copy them to R package.
 # After this step, R always uses your own dataset instead of the example dataset
 ```
 
@@ -41,9 +41,9 @@ xzdb.input.all()    #Build the database in current folder and copy them to R pac
 ### 2. Launch the genomic website browser in two different ways
 
 ```r
-XZDB.Run()                 # launches browser(package build-in); if you already ran xzdb.input.all(), it will use your own dataset instead of the example dataset
+MODB.Run()                 # launches browser(package build-in); if you already ran modb.input.all(), it will use your own dataset instead of the example dataset
 
-XZDB.Run(use_current = T)  # Froce to run in current path (instead of run in package). Require setup datasets in current path piror. Easy to modify and checking the database files.
+MODB.Run(use_current = T)  # Froce to run in current path (instead of run in package). Require setup datasets in current path piror. Easy to modify and checking the database files.
 ```
 
 ---
@@ -189,18 +189,18 @@ Requires an internet connection.
 
 To use helper to create your own dataset, run:
 ```r
-xzdb.help()
-xzdb.input.all()        # Run this after modifying the copied files
+modb.help()
+modb.input.all()        # Run this after modifying the copied files
 ```
 
 Synchronize all datasets and index files(include Datasets information.xlsx) into the package shinyapp directly
 ```r
-xzdb.sync.to.shinyapp() #No need to run if you already run xzdb.input.all()
+modb.sync.to.shinyapp() #No need to run if you already run modb.input.all()
 ```
 
 Get the currently used datasets inside the package location (If you want to confirm it's copied successfully)
 ```r
-xzdb.nowDataset()          #It copies current using datasets to your working path
+modb.nowDataset()          #It copies current using datasets to your working path
 ```
 
 Example package storage location, inside R package:
@@ -233,7 +233,7 @@ Example package storage location, inside R package:
 To make a quick start R file, put these two lines:
 ```r
 library(MODBrowser)
-XZDB.Run()
+MODB.Run()
 ```
 
 For example, it can be called **Quick_Start.R**. The next step is just setting up to run this file using R (not RStudio).
@@ -300,4 +300,4 @@ After those steps, double-click the file to launch the website browser applicati
 
 #### A3. Update local R script (If you're using local based instead of package based)
 
-Copy and replace your local scripts using the scripts at github location: MOD-Browser/inst/shinyapp/
+Copy and replace your local scripts using the scripts at github location: MODBrowser/inst/shinyapp/

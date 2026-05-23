@@ -13,8 +13,8 @@ Modularized tools for dataset indexing, gene ID/symbol resolution, searching, pr
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/ScottCalcalas/MOD-Browser}
-  \item Report bugs at \url{https://github.com/ScottCalcalas/MOD-Browser/issues}
+  \item \url{https://github.com/ScottCalcalas/MODBrowser}
+  \item Report bugs at \url{https://github.com/ScottCalcalas/MODBrowser/issues}
 }
 
 }

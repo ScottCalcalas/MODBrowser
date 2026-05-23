@@ -44,14 +44,14 @@
 #' @examples
 #' \dontrun{
 #'   # Prepare example data and protocol files in the current folder
-#'   xzdb.help()
+#'   modb.help()
 #'
 #'   # After this, check your working directory:
 #'   #   datasets/
 #'   #   Datasets infomation.xlsx
 #'   #   Use protocol.docx
 #' }
-xzdb.help <- function() {
+modb.help <- function() {
   # 1. Locate shinyapp folder inside the installed package
   pkg_app <- system.file("example", package = "MODBrowser")
   if (pkg_app == "")
@@ -99,7 +99,7 @@ xzdb.help <- function() {
 #'
 #' @export
 #'
-xzdb.nowDataset <- function(ToName = "datasets") {
+modb.nowDataset <- function(ToName = "datasets") {
   # 1. Locate shinyapp folder inside the installed package
   pkg_app <- system.file("shinyapp", package = "MODBrowser")
   if (pkg_app == "")
